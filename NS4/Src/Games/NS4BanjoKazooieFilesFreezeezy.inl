@@ -12,9 +12,8 @@
 #define NS4_WET_FILTER_FREQ					8832.0//8832.0//(NS4_ORIG_HZ / std::pow( 2.0, 1.75 ))
 #define NS4_ENV_MULTIPLIER					(1.0 / 3.0)
 
-{ u8"Banjo-Kazooie (U) (V1.0) 00000010 00D33AF8 Spiral Mountain.mid", u8"Banjo-Kazooie (U) (V1.0) 00000010 00D33AF8 Spiral Mountain.mid TrackParseDebug.txt", u8"Spiral Mountain amb", 0,
-	2 + 1, {
-		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 14 - 1 },
+{ u8"Banjo-Kazooie (U) (V1.0) 00000003 00D2A4E0 Freezeezy Peak.mid", u8"Banjo-Kazooie (U) (V1.0) 00000003 00D2A4E0 Freezeezy Peak.mid TrackParseDebug.txt", u8"Freeze amb", 0,
+	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 15 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },

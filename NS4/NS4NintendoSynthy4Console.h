@@ -331,10 +331,29 @@ int oldmain() {
 //#include "Src/Games/NS4ChopperAttackFiles.inl"
 //#include "Src/Games/NS4ChopperAttackOverSampledFiles.inl"
 //#include "Src/Games/NS4BanjoKazooieFiles.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesSpiralMountain.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesMumbosMountain.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesTreasureCove.inl" 
+//#include "Src/Games/NS4BanjoKazooieFilesTreasureCoveLighthouse.inl"  
+//#include "Src/Games/NS4BanjoKazooieFilesClanker.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesClankerInside.inl"
+#include "Src/Games/NS4BanjoKazooieFilesBubblegloop.inl"
+#include "Src/Games/NS4BanjoKazooieFilesGobi.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesFreezeezy.inl"
+#include "Src/Games/NS4BanjoKazooieFilesMansion.inl"
+#include "Src/Games/NS4BanjoKazooieFilesMansionLoggo.inl"
+#include "Src/Games/NS4BanjoKazooieFilesMansionGrave.inl"
+#include "Src/Games/NS4BanjoKazooieFilesRusty.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesWoodLobby.inl"
+#include "Src/Games/NS4BanjoKazooieFilesWoodFall.inl"
+#include "Src/Games/NS4BanjoKazooieFilesWoodSpring.inl"
+//#include "Src/Games/NS4BanjoKazooieFilesWoodWinter.inl"
+#include "Src/Games/NS4BanjoKazooieFilesWoodSummer.inl"
 //#include "Src/Games/NS4BlastCorpsFiles.inl"
 //#include "Src/Games/NS4BlastCorpsPALFiles.inl"
 //#include "Src/Games/NS4BeetAdventureRacing!Files.inl"
-#include "Src/Games/NS4BeetAdventureRacing!VinylFiles.inl"
+//#include "Src/Games/NS4BeetAdventureRacing!Files.inl"
+//#include "Src/Games/NS4BeetAdventureRacing!VinylFiles.inl"
 //#include "Src/Games/NS4AeroFightersAssaultFiles.inl"
 //#include "Src/Games/NS4AeroFightersAssaultOverSamplingFiles.inl"
 //#include "Src/Games/NS4F1WorldGrandPrixFiles.inl"
@@ -560,7 +579,7 @@ int oldmain() {
 #endif	// NS4_PRINT_BEST_BANK
 
 //#define NS4_ROOT_FOLDER					u8"J:\\My Projects\\MIDIWorks\\Exports\\"
-#define NS4_ROOT_FOLDER					u8"C:\\My Projects\\MIDIWorks\\Exports\\"
+#define NS4_ROOT_FOLDER					u8"D:\\SFX\\"
 	for ( uint32_t B = 0; B < 0xFF; ++B ) {
 		char szBuffer[1024];	// Trying not to rely too much on platform-specific macros such as MAX_PATH.  This should be enough for the path regardless of the platform.
 		std::sprintf( szBuffer, reinterpret_cast<const char *>(
@@ -784,7 +803,7 @@ int oldmain() {
 		mfMidi.ApplyPreUnrollMods( mfFiles[F].ui32Modifiers, mfFiles[F].mModifiers, ns4::CMidiFile::NS4_ES_PRE_UNROLL, pcMidiFolder );
 		ns4::CMidiFile::m_sSettings.bIgnoreLoops = ns4::CMidiFile::FindGlobalMod( ns4::CMidiFile::NS4_E_GLOBAL_IGNORE_LOOPS, troOptions.ui32TotalMods, troOptions.pmMods ) != nullptr;
 		if ( mfFiles[F].pcDbgFile && mfFiles[F].pcDbgFile[0] ) {
-			bool bMidiDbg = mfMidi.AddDebug_Standard( (std::string( reinterpret_cast<const char *>(NS4_ROOT_FOLDER NS4_FOLDER "\\DBG\\") ) + reinterpret_cast<const char *>(mfFiles[F].pcDbgFile)).c_str() );
+			bool bMidiDbg = mfMidi.AddDebug_Standard((std::string(reinterpret_cast<const char*>(NS4_ROOT_FOLDER NS4_FOLDER "\\DBG\\")) + reinterpret_cast<const char*>(mfFiles[F].pcDbgFile)).c_str());
 		}
 		mfMidi.ApplyPreUnrollMods( mfFiles[F].ui32Modifiers, mfFiles[F].mModifiers, ns4::CMidiFile::NS4_ES_POST_SUPPLEMENTAL, pcMidiFolder );
 		std::printf( "Loaded: %s\r\n", sFile.c_str() );
