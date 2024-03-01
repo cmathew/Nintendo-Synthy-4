@@ -315,7 +315,7 @@ int oldmain() {
 //#include "Src/Games/NS4PennyRacersOverSamplingFiles.inl"
 //#include "Src/Games/NS4JinseiGame64Files.inl"
 //#include "Src/Games/NS4BanjoTooieFiles.inl"
-//#include "Src/Games/NS4DonkeyKong64Files.inl"
+#include "Src/Games/NS4DonkeyKong64Files.inl"
 //#include "Src/Games/NS4DonkeyKong64KioskFiles.inl"
 //#include "Src/Games/NS4Turok3ShadowOfOblivion.inl"
 //#include "Src/Games/NS4Turok2SeedsOfEvilFiles.inl"
@@ -334,7 +334,7 @@ int oldmain() {
 //#include "Src/Games/NS4BlastCorpsFiles.inl"
 //#include "Src/Games/NS4BlastCorpsPALFiles.inl"
 //#include "Src/Games/NS4BeetAdventureRacing!Files.inl"
-#include "Src/Games/NS4BeetAdventureRacing!VinylFiles.inl"
+//#include "Src/Games/NS4BeetAdventureRacing!VinylFiles.inl"
 //#include "Src/Games/NS4AeroFightersAssaultFiles.inl"
 //#include "Src/Games/NS4AeroFightersAssaultOverSamplingFiles.inl"
 //#include "Src/Games/NS4F1WorldGrandPrixFiles.inl"
@@ -560,7 +560,7 @@ int oldmain() {
 #endif	// NS4_PRINT_BEST_BANK
 
 //#define NS4_ROOT_FOLDER					u8"J:\\My Projects\\MIDIWorks\\Exports\\"
-#define NS4_ROOT_FOLDER					u8"C:\\My Projects\\MIDIWorks\\Exports\\"
+#define NS4_ROOT_FOLDER					u8"D:\\SFX\\"
 	for ( uint32_t B = 0; B < 0xFF; ++B ) {
 		char szBuffer[1024];	// Trying not to rely too much on platform-specific macros such as MAX_PATH.  This should be enough for the path regardless of the platform.
 		std::sprintf( szBuffer, reinterpret_cast<const char *>(
