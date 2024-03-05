@@ -1042,5 +1042,23 @@
     <None Include="Src\Games\NS4BeetAdventureRacing!VinylFiles.inl">
       <Filter>Header Files\Games</Filter>
     </None>
+    <None Include="Src\Games\NS4DonkeyKong64FilesCranky.inl">
+      <Filter>Header Files\Games</Filter>
+    </None>
+    <None Include="Src\Games\NS4DonkeyKong64FilesDKTreehouse.inl">
+      <Filter>Header Files\Games</Filter>
+    </None>
+    <None Include="Src\Games\NS4DonkeyKong64FilesGloomyGalleon.inl">
+      <Filter>Header Files\Games</Filter>
+    </None>
+    <None Include="Src\Games\NS4DonkeyKong64FilesFactory.inl">
+      <Filter>Header Files\Games</Filter>
+    </None>
+    <None Include="Src\Games\NS4DonkeyKong64FilesFungiDay.inl">
+      <Filter>Header Files\Games</Filter>
+    </None>
+    <None Include="Src\Games\NS4DonkeyKong64FilesFungiNight.inl">
+      <Filter>Header Files\Games</Filter>
+    </None>
   </ItemGroup>
 </Project>

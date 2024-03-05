@@ -315,7 +315,11 @@ int oldmain() {
 //#include "Src/Games/NS4PennyRacersOverSamplingFiles.inl"
 //#include "Src/Games/NS4JinseiGame64Files.inl"
 //#include "Src/Games/NS4BanjoTooieFiles.inl"
-#include "Src/Games/NS4DonkeyKong64Files.inl"
+//#include "Src/Games/NS4DonkeyKong64Files.inl"
+#include "Src/Games/NS4DonkeyKong64FilesCranky.inl"
+//#include "Src/Games/NS4DonkeyKong64FilesFactory.inl"
+//#include "Src/Games/NS4DonkeyKong64FilesFungiDay.inl"
+//#include "Src/Games/NS4DonkeyKong64FilesFungiNight.inl"
 //#include "Src/Games/NS4DonkeyKong64KioskFiles.inl"
 //#include "Src/Games/NS4Turok3ShadowOfOblivion.inl"
 //#include "Src/Games/NS4Turok2SeedsOfEvilFiles.inl"
@@ -515,7 +519,7 @@ int oldmain() {
 #ifdef NS4_DEFAULT_LOOPS
 	const uint32_t ui32Loops = NS4_DEFAULT_LOOPS;
 #else
-	const uint32_t ui32Loops = 2;
+	const uint32_t ui32Loops = 10;
 #endif	// NS4_DEFAULT_LOOPS
 
 #ifdef NS4_MASTER_REVERB_VOLUME
@@ -925,7 +929,7 @@ int oldmain() {
 #ifdef NS4_PREFADE_DUR
 	double dPreFade = double( NS4_PREFADE_DUR );
 #else
-	double dPreFade = 10.0;
+	double dPreFade = 0.0;
 #endif	// NS4_PREFADE_DUR
 	{
 		const ns4::CMidiFile::NS4_MODIFIER * pmThis = ns4::CMidiFile::FindGlobalMod( ns4::CMidiFile::NS4_E_GLOBAL_SET_PREFADE_DUR, troOptions.ui32TotalMods, troOptions.pmMods );

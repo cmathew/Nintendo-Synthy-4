@@ -265,6 +265,12 @@
     <None Include="Src\Games\NS4DinosaurPlanetFiles.inl" />
     <None Include="Src\Games\NS4DonaldDuckGoinQuakersFiles.inl" />
     <None Include="Src\Games\NS4DonkeyKong64Files.inl" />
+    <None Include="Src\Games\NS4DonkeyKong64FilesCranky.inl" />
+    <None Include="Src\Games\NS4DonkeyKong64FilesDKTreehouse.inl" />
+    <None Include="Src\Games\NS4DonkeyKong64FilesFactory.inl" />
+    <None Include="Src\Games\NS4DonkeyKong64FilesFungiDay.inl" />
+    <None Include="Src\Games\NS4DonkeyKong64FilesFungiNight.inl" />
+    <None Include="Src\Games\NS4DonkeyKong64FilesGloomyGalleon.inl" />
     <None Include="Src\Games\NS4DonkeyKong64KioskFiles.inl" />
     <None Include="Src\Games\NS4Doom64Files.inl" />
     <None Include="Src\Games\NS4Doraemon2NobitaFiles.inl" />

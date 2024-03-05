@@ -14,49 +14,49 @@
 #define NS4_ENV_MULTIPLIER					(1.0 / 3.0)
 
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 2", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 2", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 2 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 3", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 3", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 3 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 4", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 4", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 4 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 5", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 5", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 5 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 6", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 6", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 6 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 7", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 7", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 7 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 8", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 8", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 8 - 1 },
 
@@ -64,14 +64,14 @@
 } },
 
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 14", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 14", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 14 - 1 },
 
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_MUTE_UNTAGGED_TRACKS },
 } },
 
-{ u8"Donkey Kong 64 (E) 00000001 00105276.mid", u8"Donkey Kong 64 (E) 00000001 00105276.mid TrackParseDebug.txt", u8"Channel 15", 0,
+{ u8"Donkey Kong 64 (E) 0000007A 0013C682.mid", u8"Donkey Kong 64 (E) 0000007A 0013C682.mid TrackParseDebug.txt", u8"Channel 15", 0,
 	1 + 1, {
 		{ ns4::CMidiFile::NS4_ES_PRE_UNROLL, ns4::CMidiFile::NS4_E_TAG_TRACK_BY_CHNL, 15 - 1 },
 
